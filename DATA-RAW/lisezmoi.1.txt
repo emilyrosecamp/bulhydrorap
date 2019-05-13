@@ -1,0 +1,46 @@
+SOMMAIRE
+===========================
+A. Conditions d'utilisation
+B. Liens
+C. Stations exportées
+
+A. Conditions d'utilisation
+===========================
+L'utilisation d'HYDRO entraîne l'acceptation des conditions suivantes :
+
+A.1 – Droit d’utilisation des données présentes sur Hydro
+
+Les données mises à disposition du public sont produites par de nombreux producteurs. Ceux-ci sont nommés dans chaque page d’Hydro. Chaque producteur a confié la diffusion de leurs données sous Hydro, sans exclusivité, en acceptant la cession des droits suivants.
+
+La réutilisation, la réexploitation, la rediffusion ou toute autre utilisation des informations mises à disposition du public dans le cadre de ce service sont libres. Seules sont autorisées l'extraction ou la réutilisation d'une partie non substantielle du contenu de la base, par la personne qui y a licitement accès. Toutefois, cette autorisation est consentie à la condition que l'utilisateur informe d'une manière visible l'origine des données en portant la mention «Origine des données : nom(s) du (ou des) producteur(s) de données / Banque HYDRO - MEEDDAT/DGPR/SRNH».
+Dans l'hypothèse d'une utilisation qui aurait ou pourrait avoir une quelconque influence sur l'intégrité des données, l'utilisateur informe de manière visible en portant la mention «Origine des données : nom(s) du (ou des) producteur(s) de données / Banque HYDRO - MEEDDAT/DGPR/SRNH – Données ayant fait l'objet de modifications par un tiers – La responsabilité du Ministère de l'Ecologie, de l'Energie, du Développement Durable et de l'Aménagement du Territoire et des producteurs de données ne peut être engagée».
+L'exploitation commerciale de ces données, ou des outils informationnels qui y sont rattachés, n'est autorisée par le MEEDDAT (Direction Générale de la Prévention des Risques/Service des Risques Naturels et Hydrauliques) qu'à la stricte condition que l'utilisateur y apporte une valeur ajoutée. Si des données sont soumises à un régime de restriction d'usage, l'utilisateur s'engage expressément à n'en faire que l'usage strictement autorisé.
+
+A.2 – Droit d'utilisation de la base Hydro
+
+La base de données HYDRO, hors les données qu’elle contient, est une œuvre collective protégée par le Code de la Propriété Intellectuelle, dont l'auteur est le MEEDDAT (Ministère de l'Ecologie, de l'Energie, du Développement Durable et de l'Aménagement du Territoire). Par application de l'article L.122-5 du Code de la Propriété Intellectuelle, seules sont autorisées, sous réserve que soient mentionnés le nom du MEEDDAT/DGPR/SRNH en qualité de propriétaire :
+- les copies ou reproductions partielles de la base
+- les analyses et courtes citations justifiées par le caractère critique, polémique ou pédagogique, scientifique ou d'information de l'œuvre à laquelle elles sont incorporées.
+Toute autre utilisation devra faire l'objet d'un accord spécifique, préalable et écrit du MEEDDAT/DGPR/SRNH en particulier concernant les écrans de navigation, les logos, images et photos pour lesquels toute reproduction, totale ou partielle, ou imitation, est interdite.
+
+A.3 - Avertissement
+
+Notion de validité : les données peuvent avoir différents niveaux de validité depuis une donnée brute jusqu'à une donnée élaborée et contrôlée à partir de synthèses. Les notions de validité et les niveaux de validité sont indiqués à chaque mesure quantitative.
+
+A.4 - Responsabilité
+
+Le Ministère de l'Ecologie, de l'Energie, du Développement Durable et de l'Aménagement du Territoire (MEEDDAT), la DGPR/SRNH (Direction Générale de la Prévention des Risques/Service des Risques Naturels et Hydrauliques) et le SCHAPI (Service central d'Hydrométéorologie et d'Appui à la Prévision des Inondations) apportent le plus grand soin à la réalisation et au fonctionnement de ce service afin de répondre à leur obligation de moyens et aux besoins des utilisateurs. La responsabilité, si elle devait être engagée, ne pourrait trouver sa cause que dans une faute lourde sauf faute volontaire et la réparation ne saurait comprendre que les dommages directs à l'exclusion expresse des dommages immatériels.
+
+Les informations et données fournies sont produites et mises à disposition par le producteur, sous sa responsabilité. Ce sont des indications dont l'utilisateur fait un usage sous sa seule responsabilité.
+
+
+B. Liens
+===========================
+HydroWEB : http://www.hydro.eaufrance.fr
+Définitions du Glossaire : http://www.hydro.eaufrance.fr/glossaire.php
+
+
+C. Stations exportées
+===========================
+Les fiches stations sont accessibles en ligne aux adresses suivantes : 
+http://www.hydro.eaufrance.fr/stations/L8000020
