@@ -46,12 +46,12 @@ hydrolicite <- function(x) {
   ,warning = function() {
 
     w <- warnings()
-    warning('Warning produced running figure3.1():', w)
+    warning('Warning produced running hydrolicite():', w)
 
   },
   error = function(e)  {
 
-    stop('Error produced running figure3.1():', e)
+    stop('Error produced running hydrolicite():', e)
 
   },
   finally = {}
