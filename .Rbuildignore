@@ -1,2 +1,4 @@
 ^bulhydrorap\.Rproj$
 ^\.Rproj\.user$
+^packrat/
+^\.Rprofile$
