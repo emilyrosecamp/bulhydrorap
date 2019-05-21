@@ -1,10 +1,13 @@
 ---
 title: "RAP_rapport"
-output: html_document
+output: 
+  tufte::tufte_html: default
+  tufte::tufte_handout: default
+  
 vignette: >
   %\VignetteIndexEntry{RAP_rapport}
-  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
 ---
 
 ```{r setup, echo = FALSE, include=FALSE}
@@ -27,7 +30,7 @@ Les précipitations de nouveau déficitaires d’avril (sauf sur le Marais Poite
 
 # La Loire
 ## Situation du mois d'avril
-```{r echo=FALSE, error=FALSE, include=FALSE}
+```{r echo=FALSE, error=FALSE, include=TRUE}
 x<-seq(from=1916,to=2018,by=1)
 deb<-reportdata$df$Debit
 plot(x,deb,xlab='Année',ylab='Débit')
@@ -36,7 +39,7 @@ mindeb<-min(deb, na.rm = TRUE)
 maxdeb<-max(deb, na.rm = TRUE)
 ```
 
-Sur la période d'observation, le débit minimal pour le mois de mai est de `r mindeb` m^3.
+Cette station est en activité depuis 1915. Sur la période d'observation, le débit minimal pour le mois de mai est de `r mindeb` m^3.
 Sur la période d'observation, le débit maximal pour le mois de mai est de `r maxdeb` m^3.
 
 
