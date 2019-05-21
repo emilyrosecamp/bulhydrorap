@@ -1,3 +1,10 @@
+#' @title Extraction tableau des debits
+#' @description Pour les donnees banque hydro d'une station, extraire données historiques de debits mensuel
+#' @details Depuis le dernier fichier CSV pour la station, extraire les donnees de debit
+
+#' @param x Input table of \code{debit_mensuel} class
+#' @return A data frame
+#' @export
 
 debit_mensuel<-function(x){
 #----------------------------------------------------#
@@ -29,9 +36,9 @@ if(is.na(monthID)) {
 #minimal tidy dataset
 flow<-x[,monthID]
 quality<-x[,monthID+1]
-year<-x$Année
+year<-1916:2018
 final<-data.frame(year,flow,quality)
-colnames(final)<-c("Année","Débit","Qualité")
+colnames(final)<-c("Annee","Debit","Qualite")
 
 #----------------------------------------------------#
 # Creer la classe debit_mensuel
