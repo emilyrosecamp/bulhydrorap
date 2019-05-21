@@ -30,6 +30,7 @@ if(is.na(monthID)) {
   monthID<-monthID<-match(month,names(x))
   if(is.na(monthID)){
     #ERROR TO BE FIXED
+    monthID<- 19
   }
 }
 
