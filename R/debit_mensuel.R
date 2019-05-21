@@ -10,11 +10,11 @@ debit_mensuel<-function(x){
 #----------------------------------------------------#
 # Faire de controles qualité sur la table de donnees
 #----------------------------------------------------#
-    if(is.data.frame(x)) {
-    print("Format donnees OK")
-  } else {
-    print("Probleme de format de donnees")
-  }
+  #   if(is.data.frame(x)) {
+  #   print("Format donnees OK")
+  # } else {
+  #   print("Probleme de format de donnees")
+  # }
 #----------------------------------------------------#
 # Retenir que les donnees necessaires pour le bulletin
 #----------------------------------------------------#
@@ -30,6 +30,7 @@ if(is.na(monthID)) {
   monthID<-monthID<-match(month,names(x))
   if(is.na(monthID)){
     #ERROR TO BE FIXED
+    monthID<- 19
   }
 }
 
