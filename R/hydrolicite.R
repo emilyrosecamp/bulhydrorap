@@ -21,7 +21,7 @@ hydrolicite <- function(x) {
 
   #####
   df<-x$df
-  deb<-df$Débit
+  deb<-df$Debit
 
 
   # Check that debit data is numeric

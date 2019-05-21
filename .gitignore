@@ -4,3 +4,6 @@
 .Ruserdata
 secret.txt
 packrat/lib*/
+inst/doc
+doc
+Meta

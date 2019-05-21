@@ -1,3 +1,5 @@
+#' @export
+
 # Convert raw zip file to tidy RDA object
 # create_bulhydrorap
 

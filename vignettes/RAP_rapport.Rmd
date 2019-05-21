@@ -1,0 +1,48 @@
+---
+title: "RAP_rapport"
+output: html_document
+vignette: >
+  %\VignetteIndexEntry{RAP_rapport}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, echo = FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+devtools::load_all(".")
+library(bulhydrorap)
+ reportdata<-debit_mensuel(bulhydro)
+ hydrodata<-hydrolicite(debit_mensuel(bulhydro))
+
+```
+
+
+# Bulletin hydrologique 2019
+
+
+Les précipitations de nouveau déficitaires d’avril (sauf sur le Marais Poitevin et le nord Loire-Atlantique) font chuter les débits des rivières. La majorité des nappes présentent des niveaux moyens ou inférieurs à la moyenne, et entament leur vidange saisonnière. Les barrages sont proches de leurs capacités maximales.
+
+# La Loire
+## Situation du mois d'avril
+```{r echo=FALSE, error=FALSE, include=FALSE}
+x<-seq(from=1916,to=2018,by=1)
+deb<-reportdata$df$Debit
+plot(x,deb,xlab='Année',ylab='Débit')
+
+mindeb<-min(deb, na.rm = TRUE)
+maxdeb<-max(deb, na.rm = TRUE)
+```
+
+Sur la période d'observation, le débit minimal pour le mois de mai est de `r mindeb` m^3.
+Sur la période d'observation, le débit maximal pour le mois de mai est de `r maxdeb` m^3.
+
+
+```{r, echo=FALSE, include=TRUE}
+
+barplot(hydrodata[1:2],horiz = TRUE,beside=TRUE, names.arg = c("Qmoy actuel","Qmoy historique" ))
+```
+
+L'hydrolicité pour ce fleuve est donc donné par `r 100-hydrodata[3]` %. Soit un déficit de `r hydrodata[3]` %. 
